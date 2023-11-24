@@ -1,0 +1,94 @@
+@font-face{
+    font-family:font;
+    src:url("anchor.ttf");
+}
+@font-face{
+    font-family:namefont;
+    src:url("name.ttf");
+}
+*{
+    margin:0px;
+}
+body{
+    background-image: url(bg.jpg);
+}
+#main{
+    background-color:rgb(20,47,68);
+    border:2px rgb(162,187,207) solid;
+    height:500px;
+    width:500px;
+    margin:30px auto 0px auto;
+    border-radius:15px;
+    padding:10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom:none;
+}
+#screen{
+    height:80px;
+    width:452px;
+    border-radius:10px;
+    margin:5px 20px 10px 18px;
+    background-color: rgb(162,187,207);
+    padding-left:10px;
+    padding-top:10px;
+}
+#output{
+    padding-left:5px;
+    font-family:font;
+    font-weight:bolder;
+    background-color:rgb(32,91,122);
+    height:65px;
+    width:433px;
+    color:white;
+    font-size:3rem;
+}
+#button-grid{
+    justify-content: space-evenly;
+    display:flex;
+    flex-wrap: wrap;
+    border-radius:10px;
+    height:400px;
+}
+#button-grid button{
+    font-family:font;
+    color:black;
+    border:1px white solid;
+    background-color:rgb(162,187,207);
+    margin:5px;
+    height:70px;
+    width:100px;
+    font-size:1.8rem;
+    border-style:none;
+    border-radius:10px;
+    transition-property: font-size, font-weight, background-color, border, color;
+    transition-duration: 0.3s;
+}
+#button-grid button:hover{
+    font-weight:bolder;
+    font-size:2.4rem;
+    cursor:pointer;
+    color:white;
+    border:white 1px solid;
+    background-color:rgb(32,91,122);
+}
+#name-div{
+    
+    border:2px rgb(162,187,207) solid;
+    text-align: center;
+    padding:0.1px;
+    width:520px;
+    border-top: 0px;
+    margin:0px auto 0px auto;
+    /* background-color:black; */
+    color:white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#text{
+    background-color:black;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-family: font;
+    
+}
